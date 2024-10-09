@@ -46,6 +46,11 @@ img {
     display: flex;
 }
 
+.baseline{
+    display: flex;
+    align-items: baseline;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -120,6 +125,8 @@ nav a {
 .debug {
     border: 1px solid red;
 }
+
+
 
 
 /* Button */
@@ -253,7 +260,19 @@ h3{
     border-bottom: 1px solid rgb(206, 206, 206);
     height: 60px;
     margin-right: 5px;
+    margin-bottom: 30px;
 }
 
+.punti-salienti{
+    margin-top: 40px;
+}
+.baseline i{
+    margin-right: 5px;
+    color: #0061ff;
+    font-size: 15px;
+}
 
+.divided{
+width: calc(100% / 3);
+}
 
