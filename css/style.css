@@ -50,6 +50,12 @@ img {
     justify-content: space-between;
 }
 
+.col-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 /* Header */
@@ -116,13 +122,6 @@ nav a {
 }
 
 
-/* Main */
-
-h2{
-    font-size: 30px;
-}
-
-
 /* Button */
 .blue-button1 {
     padding: 7px 15px;
@@ -142,13 +141,29 @@ h2{
     font-family: "Open Sans", sans-serif;
 }
 
+.button-piano{
+    padding: 15px 40px;
+    border: 0;
+    background-color: #0061ff;
+    color: white;
+    font-size: 15px;
+    margin: 30px 0;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+
+}
+
 button>a{
     text-decoration: none;
     color: white;
 }
 
 .blue-button2:hover{
-    box-shadow: 10px 10px 20px #1100ff;
+    box-shadow: 0px 0px 20px #818181;
+}
+
+.button-piano:hover{
+    box-shadow: 0px 0px 20px #818181;
 }
 
 /* Contenuto */
@@ -216,3 +231,29 @@ label{
 .centra{
     text-align: center;
 }
+
+.piani p, h3{
+    padding: 10px 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.link-blue{
+    color: #1900ff;
+}
+
+.bordo{
+    display: inline-block;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    height: 60px;
+    margin-right: 5px;
+}
+
+
+
