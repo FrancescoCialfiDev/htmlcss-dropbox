@@ -59,7 +59,9 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    background-color: white
+    background-color: white;
+    z-index: 1000;
+    
 }
 
 .list-flex {
@@ -113,6 +115,12 @@ nav a {
     border: 1px solid red;
 }
 
+
+/* Main */
+
+h2{
+    font-size: 30px;
+}
 
 
 /* Button */
@@ -185,5 +193,26 @@ button>a{
 
 #jumbo {
     margin-top: 10px;
+    margin-bottom: 160px;
     background-color: var(--color-jumbo)
+}
+
+/* Extra */
+
+.fa-arrow-down{
+    font-size: 45px;
+    padding-top: 80px;
+    color: black;
+}
+
+label{
+    padding: 10px;
+}
+
+.space{
+    line-height: 25px;
+}
+
+.centra{
+    text-align: center;
 }

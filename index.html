@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -42,10 +44,10 @@
 
     <main>
 
-        <section id="jumbo" class="debug">
-            <div class="container debug relative">
+        <section id="jumbo" class="">
+            <div class="container relative">
                 <h1>Tutto ciò che ti serve per il <br> lavoro, in un unico posto</h1>
-                <div class="jumbo-content debug d-flex">
+                <div class="jumbo-content d-flex">
                     <div class="jumbo-tex w-30">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                             posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente
@@ -53,9 +55,9 @@
                             integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <button class="blue-button2"><a href="">Inizia la tua prova gratuita</a></button>
                         <p>Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href=""><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
-                    <div class="jumbo-image debug w-70">
+                    <div class="jumbo-image w-70">
                         <img src="img/jumbo.png" alt="">
                     </div>
                 </div>
@@ -63,14 +65,59 @@
         </section>
 
         <section id="plans">
-            <div class="container-small">
+            <div class="container-small debug">
+
                 <div class="single-customer debug">
-                    normal plans
+                    <h2>Trova il piano business che fa per te</h2>
                 </div>
-                <div class="enterprise debug">
-                    enterprise plans
+
+                <div class="checkbox d-flex">
+                    <input type="checkbox" id="mensile" name="mensile" value="annuale">
+                    <label for="mese">Fatturazione Mensile</label><br>
+                    <input type="checkbox" id="annuale" name="annuale" value="annuale">
+                    <label for="annuale">Fatturazione Annuale</label><br>
                 </div>
-            </div>
+
+                <div class="piani debug">
+                    <div class="d-flex space-between ">
+                        <div>
+                            <div class="debug">
+                                <i class="fa-solid fa-user"></i> Singolo
+                            </div>
+
+                            <div class="debug space">
+                                <h3>Professional</h3>
+                                <b>
+                                    <p>€12.00</p>
+                                </b>
+                                <p>/mese</p>
+                            </div>
+
+                            <div class="debug">
+                                <p><i class="fa-solid fa-user"></i> 1 utente</p>
+                                <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
+                                <p><i class="fa-solid fa-diagram-project"></i> Funzione di produttività premium e condivisione file semplice e sicura</p>
+                                <button class="blue-button2">Prova gratis per 30 giorni</button>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="debug">singolo</div>
+                            <div class="debug">professionale</div>
+                        </div>
+
+
+                        <div>
+                            <div class="debug">singolo</div>
+                            <div class="debug">professionale</div>
+                        </div>
+
+                    </div>
+
+                    <div class="enterprise debug">
+                        enterprise plans
+                    </div>
         </section>
 
         <section id="partners">
