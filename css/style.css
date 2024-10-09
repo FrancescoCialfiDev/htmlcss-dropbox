@@ -55,11 +55,26 @@ img {
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
  .col-flex{
     display: flex;
     flex-direction: column;
     align-items: flex-start; */
 } 
+
+.list-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-team{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -72,6 +87,8 @@ header {
     width: 100%;
     background-color: white;
     z-index: 1000;
+    box-shadow: 0px 0px 20px #818181;
+    
     
 }
 
@@ -122,9 +139,9 @@ nav a {
     color: #343434;
 }
 
-/* .debug {
+.debug{
     border: 1px solid red;
-} */
+}
 
 
 
@@ -166,6 +183,10 @@ button>a{
 }
 
 .blue-button2:hover{
+    box-shadow: 0px 0px 20px #818181;
+}
+
+.button-piano:hover{
     box-shadow: 0px 0px 20px #818181;
 }
 
@@ -228,7 +249,7 @@ label{
 }
 
 .space{
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .centra{
@@ -270,7 +291,7 @@ width: calc(100% / 3);
 }
 
 .piani p{
-   line-height: 30px;
+   line-height: 25px;
 }
 
 .bordo-piani{
@@ -281,3 +302,22 @@ width: calc(100% / 3);
     border-bottom: 1px solid rgb(194, 194, 194);
 }
 
+input, label{
+    margin: 40px 0;
+}
+
+.enterprise{
+    margin-top: 50px;
+}
+
+.p-10{
+padding: 10px 0;
+}
+
+.p-bot{
+    padding-bottom: 30px;
+}
+
+.paddin-laterale{
+    padding: 0 30px;
+}
