@@ -90,9 +90,6 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
 }
-.shrink{
-    flex-shrink: 0;
-}
 
 /* Header */
 header {
@@ -500,6 +497,6 @@ header{
     width: 100%;
 }
 
-debug{
+/* .debug{
     border: 1px solid red;
-}
+} */
