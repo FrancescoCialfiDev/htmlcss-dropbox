@@ -507,6 +507,9 @@ color: var(--color-logo-second);
 .grey{
     background-color: #f5f5f5;
 }
+.effect:hover{
+    border: 15px solid #D1E9CD;
+}
 
 /* Faq */
 #faq details{
