@@ -51,60 +51,55 @@ body {
     justify-content: center;
     align-content: center;
 }
-
 .d-flex {
     display: flex;
 }
-
 .baseline {
     display: flex;
     align-items: baseline;
 }
-
 .space-between {
     justify-content: space-between;
 }
-
 .space-around {
     justify-content: space-around;
 }
-
 .col-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     */
 }
-
 .list-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .flex-team {
     display: flex;
     align-items: center;
 }
-
 .team-flex{
     align-items: baseline;
     justify-content: space-between;
 }
-
 .wrap{
 flex-wrap: wrap;
 }
-
 .align-center{
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
 }
+.flex-schede{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 /* Header */
-
 header {
     position: fixed;
     left: 0;
@@ -116,17 +111,14 @@ header {
 
 
 }
-
 .list-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 nav img {
     width: 120px;
 }
-
 h1 {
     font-size: 76px;
     padding: 20px 0;
@@ -135,41 +127,31 @@ h1 {
     line-height: 80px;
 
 }
-
 .jumbo-tex p {
     line-height: 20px;
 }
-
+#jumbo {
+    margin-top: 10px;
+    margin-bottom: 160px;
+    background-color: var(--color-jumbo)
+}
 header div {
     border: 1px solid red;
 }
-
 ul {
     list-style: none;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
 }
-
 header li {
     margin: 0px 20px;
     border: 1px solid red;
 
 }
-
-
-
 nav a {
     text-decoration: none;
     color: #343434;
 }
-
-.debug {
-    border: 1px solid red;
-}
-
-
-
 
 /* Button */
 .blue-button1 {
@@ -181,7 +163,6 @@ nav a {
     font-family: "Open Sans", sans-serif;
     font-size: 13.5px
 }
-
 .blue-button2 {
     padding: 8px 24px;
     border: 0;
@@ -190,9 +171,8 @@ nav a {
     margin-left: 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 13.5px;
-    margin: 30px 0;
+    margin: 30px auto;
 }
-
 .button-piano {
     padding: 15px 40px;
     border: 0;
@@ -204,7 +184,6 @@ nav a {
     margin-top: 50px;
 
 }
-
 .partner-button{
     padding: 8px 24px;
     background-color: white;
@@ -216,84 +195,65 @@ nav a {
     margin: 30px 19px;
 
 }
-
 button>a {
     text-decoration: none;
     color: white;
 }
 
+/* Button Hover */
 .blue-button2:hover {
     box-shadow: 0px 0px 20px #818181;
 }
-
 .button-piano:hover {
     box-shadow: 0px 0px 20px #818181;
 }
-
 .partner-button:hover{
     cursor: pointer;
     box-shadow: 0px 0px 20px #818181;
 }
 
-/* Contenuto */
-
+/* Conteiner */
 .container {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 15px;
 }
-
 .container-small {
     margin: 0 auto;
     max-width: 1000px;
 }
 
-
 /* Spacer */
-
 
 #partners h3, #partners p, #partners button {
     padding: 20px;
 }
-
 #partners {
 padding: 20px;
 }
-
 .padding-order{
     padding: 15px 35px;
 }
-
+.padding-order2{
+    padding: 12px 34px 45px 35px;
+}
 .p-20 {
     padding: 20px;
 }
-
 .w-70 {
     width: 70%;
     position: relative;
     top: 0;
     left: 0;
 }
-
 .w-30 {
     width: 30%;
 }
-
 .w-60 {
     width: 60%;
 }
-
 .w-40 {
     width: 30%;
-}
-
-
-/* BackGround Color */
-
-#jumbo {
-    margin-top: 10px;
-    margin-bottom: 160px;
-    background-color: var(--color-jumbo)
 }
 
 /* Extra */
@@ -383,12 +343,14 @@ label {
 }
 
 .margine {
-    margin: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .header-plan {
     text-align: center;
     border-bottom: 1px solid #c2c2c2;
+    padding: 10px;
 }
 
 /* Bordi */
@@ -457,6 +419,9 @@ label {
     padding: 10px 45px;
     font-size: 14px;
 }
+.scroll{
+    overflow-y: auto;
+}
 
 /* Footer Customers */
 .footer-customer{
@@ -513,10 +478,32 @@ color: var(--color-logo-second);
 
 /* Faq */
 #faq details{
-    border-top: 2px solid #c2c2c2;
-    border-bottom: 2px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
     padding: 30px;
 }
+#faq h2{
+    margin-bottom: 50px;
+}
+details {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  details:hover {
+    cursor: pointer;
+  }
+  details:hover[open] summary {
+    color: #0073e6; 
+  }
+  details[open] {
+    background-color: #f9f9f9;
+  }
+  summary {
+    font-weight: bold;
+  }
+
 
 /* Footer */
 footer{
