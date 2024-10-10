@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 /* Root */
 
 :root {
@@ -33,20 +38,14 @@ body {
     font-size: 0.9em;
 }
 
-
-
-/* General */ /* Flex Utilitys */
-
-img {
-    width: 100%;
-    display: block;
-}
+/* General */
+/* Flex Utilitys */
 
 .d-flex {
     display: flex;
 }
 
-.baseline{
+.baseline {
     display: flex;
     align-items: baseline;
 }
@@ -59,11 +58,12 @@ img {
     justify-content: space-around;
 }
 
- .col-flex{
+.col-flex {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; */
-} 
+    align-items: flex-start;
+    */
+}
 
 .list-flex {
     display: flex;
@@ -71,12 +71,15 @@ img {
     align-items: center;
 }
 
-.flex-team{
+.flex-team {
     display: flex;
     align-items: center;
 }
 
-
+.team-flex{
+    align-items: baseline;
+    justify-content: space-between;
+}
 
 /* Header */
 
@@ -88,8 +91,8 @@ header {
     background-color: white;
     z-index: 1000;
     box-shadow: 0px 0px 20px #818181;
-    
-    
+
+
 }
 
 .list-flex {
@@ -111,11 +114,11 @@ h1 {
 
 }
 
-.jumbo-tex p{
+.jumbo-tex p {
     line-height: 20px;
 }
 
-header div{
+header div {
     border: 1px solid red;
 }
 
@@ -129,7 +132,7 @@ ul {
 header li {
     margin: 0px 20px;
     border: 1px solid red;
-    
+
 }
 
 
@@ -139,7 +142,7 @@ nav a {
     color: #343434;
 }
 
-.debug{
+.debug {
     border: 1px solid red;
 }
 
@@ -148,24 +151,27 @@ nav a {
 
 /* Button */
 .blue-button1 {
-    padding: 7px 15px;
+    padding: 6px 15px;
     border: 0;
     background-color: #0061ff;
     color: white;
     margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.5px
 }
 
 .blue-button2 {
-    padding: 11px 14px;
+    padding: 8px 24px;
     border: 0;
     background-color: #0061ff;
     color: white;
-    font-size: 15.5px;
-    margin: 30px 0;
+    margin-left: 15px;
     font-family: "Open Sans", sans-serif;
+    font-size: 13.5px;
+    margin: 30px 0;
 }
 
-.button-piano{
+.button-piano {
     padding: 15px 40px;
     border: 0;
     background-color: #0061ff;
@@ -177,16 +183,33 @@ nav a {
 
 }
 
-button>a{
+.partner-button{
+    padding: 8px 24px;
+    background-color: white;
+    border: 1px solid #818181;
+    color: #818181;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.5px;
+    margin: 30px 19px;
+
+}
+
+button>a {
     text-decoration: none;
     color: white;
 }
 
-.blue-button2:hover{
+.blue-button2:hover {
     box-shadow: 0px 0px 20px #818181;
 }
 
-.button-piano:hover{
+.button-piano:hover {
+    box-shadow: 0px 0px 20px #818181;
+}
+
+.partner-button:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 20px #818181;
 }
 
@@ -206,6 +229,19 @@ button>a{
 
 /* Spacer */
 
+
+#partners h3, #partners p, #partners button {
+    padding: 20px;
+}
+
+#partners {
+padding: 20px;
+}
+
+.padding-order{
+    padding: 15px 35px;
+}
+
 .p-20 {
     padding: 20px;
 }
@@ -221,12 +257,14 @@ button>a{
     width: 30%;
 }
 
-
-.relative {
-    position: relative;
-    top: 70px;
-    left: 0;
+.w-60 {
+    width: 60%;
 }
+
+.w-40 {
+    width: 30%;
+}
+
 
 /* BackGround Color */
 
@@ -238,38 +276,36 @@ button>a{
 
 /* Extra */
 
-.fa-arrow-down{
+.fa-arrow-down {
     font-size: 45px;
     padding-top: 80px;
     color: black;
 }
 
-label{
+label {
     padding: 10px;
 }
 
-.space{
+.space {
     line-height: 35px;
 }
 
-.centra{
-    text-align: center;
-}
 
 
-h2{
+
+h2 {
     font-size: 30px;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
-.link-blue{
+.link-blue {
     color: #1900ff;
 }
 
-.bordo{
+.bordo {
     display: inline-block;
     border-bottom: 1px solid rgb(206, 206, 206);
     height: 60px;
@@ -277,47 +313,70 @@ h3{
     margin-bottom: 30px;
 }
 
-.punti-salienti{
+.punti-salienti {
     margin-top: 40px;
 }
-.baseline i{
+
+.baseline i {
     margin-right: 5px;
     color: #0061ff;
     font-size: 15px;
 }
 
-.divided{
-width: calc(100% / 3);
+.divided {
+    width: calc(100% / 3);
 }
 
-.piani p{
-   line-height: 25px;
+.piani p {
+    line-height: 25px;
 }
 
-.bordo-piani{
+.bordo-piani {
     border: 1px solid rgb(194, 194, 194);
 }
 
-.bordo-bottom{
-    border-bottom: 1px solid rgb(194, 194, 194);
+.bordo-bottom {
+    border-bottom: 1px solid #c2c2c2;
 }
 
-input, label{
+input,
+label {
     margin: 40px 0;
 }
 
-.enterprise{
+.enterprise {
     margin-top: 50px;
 }
 
-.p-10{
-padding: 10px 0;
+.p-10 {
+    padding: 10px 0;
 }
 
-.p-bot{
+.p-bot {
     padding-bottom: 30px;
 }
 
-.paddin-laterale{
+.paddin-laterale {
     padding: 0 30px;
+}
+
+.margine {
+    margin: 20px 0;
+}
+
+.header-plan {
+    text-align: center;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+/* Bordi */
+
+.plan-border{
+    border: 1px solid #c2c2c2;
+}
+
+.relative {
+    position: relative;
+    top: 70px;
+    left: 0;
 }
