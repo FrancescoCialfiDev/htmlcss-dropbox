@@ -85,6 +85,13 @@ body {
 flex-wrap: wrap;
 }
 
+.align-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 /* Header */
 
 header {
@@ -305,7 +312,7 @@ h3 {
     font-size: 25px;
 }
 
-.link-blue {
+a {
     color: #1900ff;
 }
 
@@ -401,4 +408,67 @@ label {
 }
 #business-features p{
     padding-top: 20px;
+}
+#business-features .dettagli{
+    margin-top: 80px;
+}
+#business-features .dettagli h2{
+    margin-bottom: 25px;
+}
+
+/* Customers */
+#customers .sezione{
+    width: calc( 100% / 3 );
+}
+#customers .customers-text div{
+    width: calc( 100% / 2 );
+    aspect-ratio: 1 / 1;
+}
+ .customers-text div img{
+    width: 60%;
+    filter: invert(100%);
+
+}
+.testo-centrale img{
+    width: 60%;
+    padding: 50px 20px 32px 44px;
+}
+.testo-centrale hr{
+    width: 20%;
+    opacity: 0.3;
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+#customers p{
+    padding: 10px 45px;
+    font-size: 14px;
+}
+ 
+/* BackGround Customer Color */
+.green{
+    background-color: var(--color-logo-green);
+}
+.bordò{
+    background-color: #61082b;
+}
+.azzurro{
+    background-color: var(--color-logo-third);
+}
+.red{
+    background-color: var(--color-logo-light-red);
+}
+.red2{
+    background-color: var(--color-logo-red);
+}
+.acqua{
+    background-color: var(--color-jumbo);
+}
+.blue{
+    background-color: var(--color-logo-blue);
+}
+.yellow{
+    background-color: var(--color-logo-yellow);
+}
+.grey{
+    background-color: #f5f5f5;
 }
