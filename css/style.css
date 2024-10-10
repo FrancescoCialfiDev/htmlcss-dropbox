@@ -41,6 +41,13 @@ body {
 /* General */
 /* Flex Utilitys */
 
+.lato-centro{ 
+    padding: 100px;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+}
+
 .d-flex {
     display: flex;
 }
@@ -417,6 +424,9 @@ label {
 }
 
 /* Customers */
+#customers{
+    margin: 50px 0;
+}
 #customers .sezione{
     width: calc( 100% / 3 );
 }
@@ -443,7 +453,29 @@ label {
     padding: 10px 45px;
     font-size: 14px;
 }
- 
+
+/* Footer Customers */
+.footer-customer{
+background-color: var(--color-jumbo);
+color: var(--color-logo-second);
+}
+.footer-customer div{
+    padding: 0 200px;
+}
+.footer-customer button{
+    padding: 15px 50px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
+}
+
+/* Footer Customers Pseudo-Element*/
+
+.footer-customer button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #818181;
+}
+
 /* BackGround Customer Color */
 .green{
     background-color: var(--color-logo-green);
