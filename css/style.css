@@ -81,6 +81,10 @@ body {
     justify-content: space-between;
 }
 
+.wrap{
+flex-wrap: wrap;
+}
+
 /* Header */
 
 header {
@@ -379,4 +383,22 @@ label {
     position: relative;
     top: 70px;
     left: 0;
+}
+
+/* Business Feature */
+#business-features{
+    margin: 100px 0;
+}
+.header-feature{
+    padding: 20px;
+}
+.content-feature{
+   width: 100%
+}
+.colonna{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+#business-features p{
+    padding-top: 20px;
 }
