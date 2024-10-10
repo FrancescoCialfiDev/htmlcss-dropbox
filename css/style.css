@@ -4,18 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 img {
     width: 100%;
     display: block;
 }
-
 html{
     scroll-behavior: smooth;
 }
 
 /* Root */
-
 :root {
     --color-jumbo: #B4D0E7;
     --color-light-blue: #b4d0e7;
@@ -33,10 +30,7 @@ html{
     --color-logo-yellow: #ffd830;
 }
 
-
-
 /* Font */
-
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 0.9em;
@@ -203,6 +197,7 @@ button>a {
 /* Button Hover */
 .blue-button2:hover {
     box-shadow: 0px 0px 20px #818181;
+    cursor: pointer;
 }
 .button-piano:hover {
     box-shadow: 0px 0px 20px #818181;
@@ -390,6 +385,7 @@ label {
 }
 
 /* Customers */
+
 #customers{
     margin: 100px 0;
 }
