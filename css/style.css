@@ -130,9 +130,6 @@ h1 {
     margin-bottom: 160px;
     background-color: var(--color-jumbo)
 }
-header div {
-    border: 1px solid red;
-}
 ul {
     list-style: none;
     width: 100%;
@@ -140,8 +137,6 @@ ul {
 }
 header li {
     margin: 0px 20px;
-    border: 1px solid red;
-
 }
 nav a {
     text-decoration: none;
